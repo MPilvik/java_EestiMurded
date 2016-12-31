@@ -1,0 +1,2307 @@
+[
+  {
+    "LECTAL": "aablane",
+    "EST": "vaablane",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "aastaig",
+    "EST": "aasta",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "abu",
+    "EST": "pihik,  liistik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "aebija",
+    "EST": "ajaja, juhtija",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "agarik",
+    "EST": "haraline",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "agerik",
+    "EST": "täitmatu, ablas",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "agulema",
+    "EST": "riidlema, jagelema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "ahe",
+    "EST": "ahi",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "ahjusõnn",
+    "EST": "(puu)hark tule kohendamiseks (rehe)ahjus",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "ajasta",
+    "EST": "aasta",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "ajor",
+    "EST": "aer",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "ala",
+    "EST": "alati",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "alatsi",
+    "EST": "alla, allapoole# alaspidi",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "allakohe",
+    "EST": "allapoole",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "ammutama",
+    "EST": "laiali, lahti, ammuli olema v. tegema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "apar",
+    "EST": "kolmekordne kalavõrk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "arbitama",
+    "EST": "toimetama, korraldama, parandama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "aruline",
+    "EST": "taoline, sarnane",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "ask",
+    "EST": "prügi, praht",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "ass",
+    "EST": "vankri telg",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "astas",
+    "EST": "asten, asti, astja ümmarguse v. ovaalse põhjaga puunõu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "ebendama",
+    "EST": "peenikest lund sadama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "ederperi",
+    "EST": "edaspidi",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "eerlema",
+    "EST": "püherdama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "ellerhein",
+    "EST": "pääsusilm",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "emalepp",
+    "EST": "sanglepp",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "emik",
+    "EST": "emis",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "erel",
+    "EST": "rahutu",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "ergutis",
+    "EST": "hõrgutis",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "fortka",
+    "EST": "õhuaken",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "gliimes",
+    "EST": "tigu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "haah",
+    "EST": "hani",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "haam",
+    "EST": "puukraan",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "haan",
+    "EST": "õlle- v. kaljanõu kraan",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "habima",
+    "EST": "kiiruga haarama, ahnitsema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "haer",
+    "EST": "harkadra künniraud",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hagerik",
+    "EST": "(hoone otsa v. räästa alla ehitatud) varjualune, õlgedest v. okstest ehitis",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hahk",
+    "EST": "(valkjas)hall",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "haidu",
+    "EST": "hajameelne",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "haisutama",
+    "EST": "nuusutama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "haluss",
+    "EST": "valus",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "hame",
+    "EST": "särk# seelik# rätik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hangus",
+    "EST": "hangutaoliselt harali, nt. sarved",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "hank",
+    "EST": "konks",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hapen",
+    "EST": "habe",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "harb",
+    "EST": "harv",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "hargutama",
+    "EST": "hargitama, (jalgu, käsi) harki v. laiali ajama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "harima",
+    "EST": "kinni haarama, kahmama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "harjane",
+    "EST": "linnuhari# seaharjas# harjastest (valmistatud)",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "harjus",
+    "EST": "millegi ülaosa, harjaosa",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hark",
+    "EST": "kaevupost",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "harm",
+    "EST": "hall",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "haru",
+    "EST": "harv# harva, mõnikord",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "harupärast",
+    "EST": "harva",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "hastel",
+    "EST": "haspel, tööriist lõnga kerimiseks",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hatt",
+    "EST": "emane koer",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "haul",
+    "EST": "veeaur, aurusegune õhk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "haustel",
+    "EST": "puust kühvel",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "heinpill",
+    "EST": "heinputk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "heljuma",
+    "EST": "hõljuma, kõikuma# liikuma, aeglaselt sammuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "helt",
+    "EST": "(kuke, kana) lokuti, lott# ebe, lible",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "helves",
+    "EST": "kübe# valge kord hõõguvatel sütel",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "helähtümä",
+    "EST": "liigatama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "herits",
+    "EST": "kelm, nurjatu# kergats",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "herk",
+    "EST": "maiusroog",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "herm",
+    "EST": "hirm",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hierdämä",
+    "EST": "leivapätsi jahus veeretama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "hiireosi",
+    "EST": "mingi jätkulise varrega veetaim",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hiitmä",
+    "EST": "heitma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "hille",
+    "EST": "libe, sile",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "hinkuma",
+    "EST": "kurjalt v. kiljuvalt hirnuma (ja tagant üles lööma)",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "hirs",
+    "EST": "latt, teivas, ritv",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "homalas",
+    "EST": "humal",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hoolama",
+    "EST": "voolama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "hudilad",
+    "EST": "hobuse suurauad",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hui",
+    "EST": "huikoda süstik, kangakudumisel kasutatav riist",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hummõr",
+    "EST": "uhmer",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hunn",
+    "EST": "vurriluu, vurrkann",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "huppama",
+    "EST": "upitama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "hurisam(m)a",
+    "EST": "sumisema# vurisema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "hurmõlinõ",
+    "EST": "haraline, sakiline",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "hõlluma",
+    "EST": "hõljuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "häitsemä",
+    "EST": "õitsema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "hämm",
+    "EST": "märg, niiske",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "hämmämä",
+    "EST": "kastma, märjaks tegema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "härgrattad",
+    "EST": "härjavanker",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "härin",
+    "EST": "urin, lõrin",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hörüläne",
+    "EST": "herilane",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "höörik",
+    "EST": "ümarik",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "höörima",
+    "EST": "hõljuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "hüdisema",
+    "EST": "lõdisema, vabisema, värisema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "hüdsi",
+    "EST": "süsi",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hüll",
+    "EST": "müts",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "hürätämä",
+    "EST": "uratama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "idenema",
+    "EST": "idanema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "igitigine",
+    "EST": "iidne, väga vana",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "ihkuma",
+    "EST": "hõiskama, karjuma# heledasti huikama, läbilõikavat häält tegema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "iidlane",
+    "EST": "hiiglane",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "ilmahki",
+    "EST": "ilmaski",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "ilmuline",
+    "EST": "maapealne olend",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "ilpuma",
+    "EST": "hilbendama, rippuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "impama",
+    "EST": "lonkama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "irvama",
+    "EST": "töinama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "iskima",
+    "EST": "lõnga korrutama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "iso",
+    "EST": "äike",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "itse",
+    "EST": "ristiisa, -ema",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "itsi",
+    "EST": "irevil",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "iä",
+    "EST": "jää, jääkate",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jaar",
+    "EST": "äär",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jahvekivi",
+    "EST": "käsikivi",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jalasepain",
+    "EST": "reejalaste painutamise seadeldis, painutuspuu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "javekivi",
+    "EST": "käsikivi",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jonn",
+    "EST": "junn",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "joositõllõma",
+    "EST": "edasi-tagasi jooksma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "jork",
+    "EST": "jäme lõng# tomp",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jugima",
+    "EST": "imema# jändama, jukerdama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "juhama",
+    "EST": "sõiduteelt kõrvale libisema# kõikudes käima, taaruma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "juhipuu",
+    "EST": "tiisel, veopuu kahe hobuse kõrvuti rakendamiseks",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jump",
+    "EST": "midagi jämedat, ümmargust (jupp, tükk vms.)",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jumpsima",
+    "EST": "tasakesi minema, käima",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "jung",
+    "EST": "kaevuvinn",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "junu",
+    "EST": "väike ese v. olevus# poisike, väike inimene v. loom",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jupsima",
+    "EST": "jändama, jukerdama# hüplema# seksuaalvahekorras olema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "jutt",
+    "EST": "nahkrihmad, millega ike härja sarvede külge seoti",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jutus",
+    "EST": "jutlus",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jõkutama",
+    "EST": "lõngutama, jõnksutama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "jõmp",
+    "EST": "puunott",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jõmpsima",
+    "EST": "ebaühtlaselt, jõnksuvalt käima",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "jõpsma",
+    "EST": "hoorama# seksuaalvahekorras olema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "jõrrama",
+    "EST": "nurisema, torisema# jämedat häält tegema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "jõõger",
+    "EST": "jääger",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jägi",
+    "EST": "jää",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jälle",
+    "EST": "järele",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "järg",
+    "EST": "iste",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jääras",
+    "EST": "jäär",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jääts",
+    "EST": "jää, jääkate",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "jürama",
+    "EST": "jürämä närima",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaab",
+    "EST": "kaabu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaada",
+    "EST": "kaudu, mööda",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kaadsa",
+    "EST": "vanaaegsed linased v. takused meeste (alus)püksid",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaakima",
+    "EST": "norima, pilkama# ulakusi tegema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaal",
+    "EST": "kaevuvinn# linane rätik v. riie# surilina",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaalduke",
+    "EST": "krae, kaelus",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaalikene",
+    "EST": "kallikene",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaalpuud",
+    "EST": "kaelkoogud",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaaluma",
+    "EST": "kangutama, üles tõstma# vajuma, kalduma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaalunui",
+    "EST": "margapuu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaap",
+    "EST": "kaabu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaapkübar",
+    "EST": "kõrge rummuga viltkübar",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaarass",
+    "EST": "räästas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaarid",
+    "EST": "kraasid",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaaritama",
+    "EST": "kaares kulgema, ringi käima",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaaruss",
+    "EST": "räästas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaasitama",
+    "EST": "regilaule (peam. pulmalaule) laulma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaastmine",
+    "EST": "kraasimine",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaatsad",
+    "EST": "vanaaegsed linased v. takused meeste (alus)püksid",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaba",
+    "EST": "hoone ristnurk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kabama",
+    "EST": "kobama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kabel",
+    "EST": "nöör, pael",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kadsa",
+    "EST": "kera# pundar, kimp, hunnik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaehama",
+    "EST": "pilku heitma, kaema, silmama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaelama",
+    "EST": "pusklema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaetama",
+    "EST": "pilku heitma, silmama, ümberringi vaatama# ära tegema, nõiduma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaevama",
+    "EST": "pusklema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaevandik",
+    "EST": "kaevandus",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaevlema",
+    "EST": "pusklema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaevuhark",
+    "EST": "kaevuvinna toetav post",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaevuvibu",
+    "EST": "kaevuvinn",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kahetus",
+    "EST": "nõidus, kurja silmaga vaatamine",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kahutama",
+    "EST": "ruttu, hoogsalt midagi tegema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kahv",
+    "EST": "piibu, lusika v. kulbi laiem osa# vähi- ja kalapüügiriist",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaju",
+    "EST": "kaev",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kakkema",
+    "EST": "katkema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaldsud",
+    "EST": "püksid",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kali",
+    "EST": "ümmargune puukaigas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kalits",
+    "EST": "tasku",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kalluma",
+    "EST": "kukkuma, langema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kalme",
+    "EST": "surnuaed",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kalmuline",
+    "EST": "matuseline# surnu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kalsad",
+    "EST": "püksid",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kamar",
+    "EST": "kanarbik# roheline sammal# vänge lõhnaga sootaim",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kampima",
+    "EST": "käima, kõmpima# tampima",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kamps",
+    "EST": "komps",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kanaarjak",
+    "EST": "kanarbik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kanane",
+    "EST": "kanapoeg",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kanarik",
+    "EST": "kanarbik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kands",
+    "EST": "tüügas, konts# millegi alumine v. tagumine osa",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kangasjalad",
+    "EST": "kangasteljed",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kanne",
+    "EST": "sang",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kannipuu",
+    "EST": "kandmispuud, kaelkoogud",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kannutama",
+    "EST": "kanda, pidet külge panema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kants",
+    "EST": "tüügas, konts# millegi alumine v. tagumine osa",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaokõne",
+    "EST": "kaabukene",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kaps",
+    "EST": "käbe, kõbus",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kaput",
+    "EST": "sokk, lühikese säärega meestesukk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kara",
+    "EST": "kellatila# peenis",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "karbats",
+    "EST": "piits",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "karbus",
+    "EST": "talvemüts",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kard",
+    "EST": "õhuke plekk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kargutama",
+    "EST": "ajama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "karguti",
+    "EST": "vokikeps",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kark",
+    "EST": "käepide, tugipuu# haraline, kõver v. okslik ese",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "karm",
+    "EST": "kare# kõva, jäik# krobeline, kore",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "karp",
+    "EST": "paks (kare, pragunenud) puukoor, puuseen, käsn",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "karsas",
+    "EST": "redel",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kartohk(as)",
+    "EST": "kartul",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kartsas",
+    "EST": "redel",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "karune",
+    "EST": "karvane",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "karupea",
+    "EST": "kangaspuude osa",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "karuperse",
+    "EST": "ungas, kolmnurkne auk kelpkatuse otsas katuseharja all",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kask",
+    "EST": "kasukas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "katik",
+    "EST": "katki",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "katsi",
+    "EST": "pooli kahele poole",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kauda",
+    "EST": "kaudu, mööda",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kaurima",
+    "EST": "uuristama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kaust",
+    "EST": "nahariba",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "keder",
+    "EST": "ketas, ratas# voki ja kangaspuude osa",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kederus",
+    "EST": "värten, kedervars",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "keeba",
+    "EST": "kõver malakas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "keel",
+    "EST": "püünis",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kegu",
+    "EST": "väike hunnik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kegus",
+    "EST": "kõveras",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "keha",
+    "EST": "(õlle)nõu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "keidiss",
+    "EST": "köidis, side, köis",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "keikos",
+    "EST": "püsti, õieli",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kellaleht",
+    "EST": "kellapendel",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kelt",
+    "EST": "kuivatatud kala",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kennigi",
+    "EST": "keegi",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "keoke",
+    "EST": "kibu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kepsima",
+    "EST": "hüplema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "keri",
+    "EST": "kere",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kerijalg",
+    "EST": "kerilaudade jalg",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "keripuu",
+    "EST": "kerilauad",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kerk",
+    "EST": "pink# kirik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kern",
+    "EST": "kirn",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kesev",
+    "EST": "oder",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "keske",
+    "EST": "keset",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kess",
+    "EST": "võrkkott",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kestel",
+    "EST": "korv",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kester",
+    "EST": "köster",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kesu",
+    "EST": "oder",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "ketsu",
+    "EST": "edev",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kibot",
+    "EST": "pühakukapp setude toanurgas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kiben",
+    "EST": "kübe",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kidarik",
+    "EST": "harakas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kiha",
+    "EST": "(õlle)nõu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kiharangas",
+    "EST": "harakas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kihn",
+    "EST": "pähkli tupp",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kiil",
+    "EST": "keel",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kiilama",
+    "EST": "hiilgama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kiilus",
+    "EST": "kõõrdi",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kiir",
+    "EST": "kellapomm",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kiirgama",
+    "EST": "ka: kiljuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kiisel",
+    "EST": "kaerakile (toit)",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kiitmä",
+    "EST": "keetma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kiitsak(as)",
+    "EST": "harakas",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kiitsma",
+    "EST": "kriiksuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kikk",
+    "EST": "leivaviil",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kikkapütsk",
+    "EST": "harilik heinputk (taim)",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kile",
+    "EST": "kaerakile (toit)# hele# kelme",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kilipugu",
+    "EST": "linnu liivapugu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kilok",
+    "EST": "kätepesunõu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kilts",
+    "EST": "padrunikest",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kindmä",
+    "EST": "tugev",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kinnel",
+    "EST": "kindel",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kipluk",
+    "EST": "küüslauk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kipp",
+    "EST": "jooginõu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kippama",
+    "EST": "ennast vähe edasi nihutama, nihkuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kippuma",
+    "EST": "liikuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kiputama",
+    "EST": "liigutama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kire",
+    "EST": "kuiv, krõbe# käre, vali# kipitav, kirvendav",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kirevane",
+    "EST": "kirju",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kirgats",
+    "EST": "prussakas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kirgma",
+    "EST": "kirema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kiri",
+    "EST": "kirju",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kiriauk",
+    "EST": "ahjusuu kohalt kerisele viiv auk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kiriv(ane)",
+    "EST": "kirju",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kirjes",
+    "EST": "kirjak",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kirjutama",
+    "EST": "välja õmblema, tikkima, kirjama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kirkama",
+    "EST": "helendama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kirm",
+    "EST": "viljakuivatamise plaat, rest",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kirrev",
+    "EST": "kirju",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kirsin",
+    "EST": "mossis",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kisla",
+    "EST": "kaerakile (toit)",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kissili",
+    "EST": "kukile",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kistavars",
+    "EST": "kedervars, tööriist lõnga ketramiseks ja korrutamiseks",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kistuma",
+    "EST": "kustuma, hääbuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kitsipaatsap",
+    "EST": "paakspuu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kitsharakas",
+    "EST": "harakas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kivikoda",
+    "EST": "veski, vesiveski",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kivot",
+    "EST": "pühakukapp setude toanurgas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "klõmpama",
+    "EST": "lonkama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "koa",
+    "EST": "koja",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kobe",
+    "EST": "tugev",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kodass",
+    "EST": "kotkas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "koele",
+    "EST": "kuhu",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "koerakaela",
+    "EST": "hoone ristnurk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kogusen",
+    "EST": "koos",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kohe",
+    "EST": "(mingis) suunas# üsna# kuhu",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kohetus",
+    "EST": "tainas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kohki",
+    "EST": "kuskil",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kohkvele",
+    "EST": "kohkunud",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kohlapuu",
+    "EST": "kuslapuu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kohu",
+    "EST": "mutt (loom)",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "koja",
+    "EST": "koda",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kokerg",
+    "EST": "kook",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kokutama",
+    "EST": "ähvardama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kolbits",
+    "EST": "lõuguti, tööriist linavarte murdmiseks",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "koldne",
+    "EST": "kollane",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kolgutama",
+    "EST": "hulkuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kolgutid",
+    "EST": "kangastelgede osa",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kolk",
+    "EST": "veopuu# kandmisvahend# rehepeksuriist# kangaspuude osa# ree osa# nurk# kolgas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kolkama",
+    "EST": "vaatama, kõikuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "koll",
+    "EST": "munandikott",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kolne",
+    "EST": "kollane",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kolts",
+    "EST": "lõuguti, tööriist linavarte murdmiseks",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "komm",
+    "EST": "kühm# võlv",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kongi",
+    "EST": "kuskil",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "konnakübar",
+    "EST": "seen",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "konnegi",
+    "EST": "kuskil",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kook",
+    "EST": "puu, millel konks otsas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "koolma",
+    "EST": "surema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "koop",
+    "EST": "kartulikoobas# auk maa sees",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "koopama",
+    "EST": "roomama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "koost",
+    "EST": "lusikas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kootsel",
+    "EST": "koonal, ketramiseks kokkukeeratud taku- v. linapundar",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "korp",
+    "EST": "toit# ronk# puukoor",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "korsnas",
+    "EST": "korsten",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "koru",
+    "EST": "kõhn olend",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "korus",
+    "EST": "küürus",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kosnas",
+    "EST": "korsten",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "koss",
+    "EST": "pats",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kos’sad",
+    "EST": "kosjad",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kossegi",
+    "EST": "kuskil",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kostima",
+    "EST": "kostuma",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kostki",
+    "EST": "kustki",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kost’ma",
+    "EST": "külastama",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kotik",
+    "EST": "munandikott# väike kott",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kotsil",
+    "EST": "kohal",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kotspool",
+    "EST": "süstik, kangakudumisel kasutatav riist",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kottal(e)",
+    "EST": "kohal(e)",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kotus",
+    "EST": "koht",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kotusside",
+    "EST": "kohati",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kramp",
+    "EST": "sulgemisvahend",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "krants",
+    "EST": "ümbritsev võru v. kaelus# pärg",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kreeben",
+    "EST": "kamm",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kriuk",
+    "EST": "(kartulivõtmise) konks",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "krobi",
+    "EST": "vana olend",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kruupink",
+    "EST": "höövel- ja tisleripink",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kruusli",
+    "EST": "kanepitemp (toit)",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "krõit",
+    "EST": "kriit",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "krõllid",
+    "EST": "helmed",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "krõõt",
+    "EST": "kriit",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "krässis",
+    "EST": "krussis",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "krümps",
+    "EST": "korts",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kudama",
+    "EST": "kuduma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kugar",
+    "EST": "kupar",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuhe",
+    "EST": "(mingis) suunas# üsna",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kuhjavaiad",
+    "EST": "kuhjapõhja ümbritsevad vaiad",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kui",
+    "EST": "peenis",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuima",
+    "EST": "kuivama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kuiu",
+    "EST": "kuiv",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kuju",
+    "EST": "kuiv",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kujuma",
+    "EST": "kuivama# kuduma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kukar",
+    "EST": "kupar",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kukemõõk",
+    "EST": "kuke pikad kaardus sabasuled",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kukk",
+    "EST": "õis, õiekobar, õienupp# kupar# käbi",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kukkama",
+    "EST": "lonkama# lükkama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kuklema",
+    "EST": "hüpeldes liikuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kukur",
+    "EST": "kukal",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kulatsk",
+    "EST": "rõngassai",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kulit(s)",
+    "EST": "tasku",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kulkima",
+    "EST": "neelatama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kullerkukk",
+    "EST": "kullerkupp",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kumm",
+    "EST": "ime, imelik, kummaline# võlv",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kummõ",
+    "EST": "kume",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kundasment",
+    "EST": "vundament",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kunds",
+    "EST": "konts",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kundsin",
+    "EST": "proua, emand",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuni",
+    "EST": "vurrkann",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kunt",
+    "EST": "kult",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuntsin",
+    "EST": "proua, emand",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kupe",
+    "EST": "kube",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuperkull",
+    "EST": "kullerkupp",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuressed",
+    "EST": "jõhvikad",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kurg",
+    "EST": "kõver käepidemega puu adra juhtimiseks, adrakurg",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuristama",
+    "EST": "häälitsema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kurt",
+    "EST": "nudi, sarvedeta",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kurtma",
+    "EST": "seisma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kuru",
+    "EST": "katusealune",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuruslauk",
+    "EST": "küüslauk# murulauk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kusem",
+    "EST": "põis",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kusikuklane",
+    "EST": "sipelgas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kusk",
+    "EST": "kiisk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kussem",
+    "EST": "põis",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kut",
+    "EST": "kui",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kutspool",
+    "EST": "süstik, kangakudumisel kasutatav riist",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kuuas",
+    "EST": "kirvevars",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuudsli",
+    "EST": "koonal, ketramiseks kokkukeeratud taku- v. linapundar",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuukma",
+    "EST": "kukkuma (käo häälisemise kohta)",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kuulma",
+    "EST": "surema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kuumama",
+    "EST": "kumama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kuus",
+    "EST": "kuusk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuusist",
+    "EST": "kuusik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kuuti",
+    "EST": "lööma kepsu lööma, hüplema, kukerpalli laskma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kuutsle",
+    "EST": "koonal, ketramiseks kokkukeeratud taku- v. linapundar",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kõbjas",
+    "EST": "kuiv, habras",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kõder",
+    "EST": "kaun",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kõhr",
+    "EST": "turi, kühm",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kõlguti",
+    "EST": "keps",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kõlks",
+    "EST": "kõlgus, aganik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kõll",
+    "EST": "kronu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kõnkama",
+    "EST": "lonkama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kõntsima",
+    "EST": "hulkuma",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kõr(r)e",
+    "EST": "krõbe, kare, krõbekuiv# habras# pikk, sirge",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "kõrend",
+    "EST": "pikk sile latt millegi riputamiseks, ritv",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kõrraline",
+    "EST": "peredes kordamööda ülalpeetav isik, külakorda käija",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kõru",
+    "EST": "kõrv",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kõsahtama",
+    "EST": "sahistama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kõsisõma",
+    "EST": "sahisema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kõvasi",
+    "EST": "luisk",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kõõ",
+    "EST": "ikka, aina",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kõõrik",
+    "EST": "villane rõivas# suurätt, mis mõrsja ja peigmehe jalge alla laotati, kui noorpaar pulmast peigmehe koju tuli",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "käbar",
+    "EST": "kängus olevus",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "käbi",
+    "EST": "oherdi ots# puupuru, mis puurimisel välja tuleb# taime vili",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kägaskaela",
+    "EST": "ülepeakaela",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "käkk",
+    "EST": "toit (nt. verikäkk, valge käkk, kamakäkk jne.)",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kämm",
+    "EST": "heinahunnik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "känakas",
+    "EST": "käntsakas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "känn",
+    "EST": "väike, kängu jäänud olend# väikese kasvuga inimene",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kärajas",
+    "EST": "üheskoos, ühes kimbus# hunnik, püstine linahunnik",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "käre",
+    "EST": "vaigune puu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kärmes",
+    "EST": "kärbes",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kärssis",
+    "EST": "kortsus",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "käsar",
+    "EST": "paljude okstega puu",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "käsiline",
+    "EST": "käepide, sang",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kässis",
+    "EST": "kängus",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "käämer",
+    "EST": "suur oherdi, kahe käega käänatav",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kääpama",
+    "EST": "näppama, varastama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "käär",
+    "EST": "kõverik# sopp# süli, aas# lohk, õnarus",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "käätsä",
+    "EST": "kängu",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kääv",
+    "EST": "kangapool, süstikusse käiv õõnes pulk koelõngaga",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "käülemä",
+    "EST": "käima",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "köiduss",
+    "EST": "köidis, side, köis",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "körsik",
+    "EST": "seelik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kört",
+    "EST": "seelik",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "köökus",
+    "EST": "küürus",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "köötsa",
+    "EST": "küüru",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "küben",
+    "EST": "okas",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "küdi",
+    "EST": "mehevend",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "küdsämä",
+    "EST": "küpsetama, küpsema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "küdüs",
+    "EST": "ummuksis põletatav tuli (uudismaal)",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "kükerdama",
+    "EST": "kükitama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "künnütämmä",
+    "EST": "küünitama",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "kürb",
+    "EST": "peenis",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kütis",
+    "EST": "ummuksis põletatav tuli (uudismaal)",
+    "WCL": "S"
+  },
+  {
+    "LECTAL": "kütsama",
+    "EST": "küpsetama, küpsema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "küttümä",
+    "EST": "küdema",
+    "WCL": "V"
+  },
+  {
+    "LECTAL": "küüdsih",
+    "EST": "küüsis",
+    "WCL": "ADV"
+  },
+  {
+    "LECTAL": "küüt",
+    "EST": "triibuline",
+    "WCL": "ADJ"
+  },
+  {
+    "LECTAL": "küütsakil",
+    "EST": "kummargil, küürus",
+    "WCL": "ADV"
+  }
+]
