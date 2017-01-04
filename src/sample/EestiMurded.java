@@ -24,14 +24,16 @@ public class EestiMurded extends Application {
     Sõnad words = new Sõnad();
     ArrayList<String> murdesõnad = (ArrayList) words.sõnad().get("murdesõnad");
     ArrayList<String> üldkeele_vasted = (ArrayList) words.sõnad().get("üldkeele_vasted");
+    ArrayList<String> vastatud_sõnad = new ArrayList<String>();
 
     Stage alglava; // see peab olema siin defineeritud, et mäng() saaks vana akna kinni panna
     Stage lava; // see peab olema siin defineeritud, et lõpetaMäng() saaks mängu akna kinni panna
 
-    int vastuse_indeks = juhuslik_indeks(); // indeksid on vaja defineerida siin globaalselt, et neid saaks nupulevajutusel uuesti genereerida, aga et mitte kasutada final-inte
-    int suvaline_indeks1 = juhuslik_indeks();
-    int suvaline_indeks2 = juhuslik_indeks();
+    int vastuse_indeks = juhuslik_indeks(murdesõnad); // indeksid on vaja defineerida siin globaalselt, et neid saaks nupulevajutusel uuesti genereerida, aga et mitte kasutada final-inte
+    int suvaline_indeks1 = juhuslik_indeks(murdesõnad);
+    int suvaline_indeks2 = juhuslik_indeks(murdesõnad);
 
+    int punkt = 0;
     @Override // Application-klassis olev start-meetod on üle kirjutatud
 
     //2.põhimeetod
@@ -57,6 +59,8 @@ public class EestiMurded extends Application {
 
         final Text vajutuse_tekst = new Text();
 
+        Label sõnu = new Label("Sõnu jäänud: " + murdesõnad.size());
+        Label punktid = new Label("Punkte: " + punkt);
         Button vasta = new Button("Vasta");
         Label murdesõna = new Label();
         ToggleGroup vastused = new ToggleGroup();
@@ -65,13 +69,13 @@ public class EestiMurded extends Application {
         RadioButton nupp3 = new RadioButton();nupp3.setToggleGroup(vastused);
 
         vbox.setAlignment(Pos.CENTER);
-        vbox.getChildren().addAll(murdesõna, nupp1, nupp2, nupp3, vasta, vajutuse_tekst);
+        vbox.getChildren().addAll(sõnu, murdesõna, nupp1, nupp2, nupp3, vasta, vajutuse_tekst, punktid);
         asetus.getChildren().addAll(vbox);
 
         ////3.1.2. määra murdesõnale ja vastusevariantidele väärtused
-        /////3.1.2.1. Kontrolli, kas globaalselt defineeritud indeksid ei kattu
-        while(vastuse_indeks == suvaline_indeks1)suvaline_indeks1 = juhuslik_indeks();
-        while(vastuse_indeks == suvaline_indeks2 || suvaline_indeks1 == suvaline_indeks2)suvaline_indeks2 = juhuslik_indeks();
+        /////3.1.2.1. Kontrolli, ega globaalselt defineeritud indeksid ei kattu
+        while(vastuse_indeks == suvaline_indeks1)suvaline_indeks1 = juhuslik_indeks(murdesõnad);
+        while(vastuse_indeks == suvaline_indeks2 || suvaline_indeks1 == suvaline_indeks2)suvaline_indeks2 = juhuslik_indeks(murdesõnad);
 
         /////3.1.2.2. leia indeksite põhjal listidest sõnad
         murdesõna.setText(murdesõnad.get(vastuse_indeks));
@@ -84,7 +88,7 @@ public class EestiMurded extends Application {
 
             @Override
             public void handle(ActionEvent event) {
-                System.out.println(murdesõnad.size());
+                System.out.println("Murdesõnade list: " + murdesõnad.size() + ", vastete list: " + üldkeele_vasted.size() + " ja vastatud sõnu: " + vastatud_sõnad.size());
 
                 RadioButton rb = (RadioButton)vastused.getSelectedToggle();
                 String vastus = rb.getText();
@@ -92,27 +96,45 @@ public class EestiMurded extends Application {
 
                 if(vastus.equals(nupp1.getText())){
                     vajutuse_tekst.setText("Õige!");
-                    murdesõnad.remove(vastuse_indeks);üldkeele_vasted.remove(vastuse_indeks);
-                    System.out.println(murdesõnad.size());
+                    punkt++;
+                    punktid.setText("Punkte: " + punkt);
+                    murdesõnad.remove(vastuse_indeks);
+                    sõnu.setText("Sõnu jäänud: " + murdesõnad.size());
+                    üldkeele_vasted.remove(vastuse_indeks);
+                    vastatud_sõnad.add(vastus);
+                    System.out.println("Pärast vastamist on murdesõnade list: " + murdesõnad.size() + ", vastete list: " + üldkeele_vasted.size() + " ja vastatud sõnu: " + vastatud_sõnad.size());
                 }
-                else vajutuse_tekst.setText("Vale!");
+                else {
+                    vajutuse_tekst.setText("Vale!");
+                    punkt--;
+                    punktid.setText("Punkte:" + punkt);
+                }
 
-                vastuse_indeks = juhuslik_indeks();
+                vastuse_indeks = juhuslik_indeks(murdesõnad);
 
                 if(murdesõnad.size()>=3) {
 
-                    suvaline_indeks1 = juhuslik_indeks();while (vastuse_indeks == suvaline_indeks1) suvaline_indeks1 = juhuslik_indeks();
-                    suvaline_indeks2 = juhuslik_indeks();while (vastuse_indeks == suvaline_indeks2 || suvaline_indeks1 == suvaline_indeks2) suvaline_indeks2 = juhuslik_indeks();
+                    suvaline_indeks1 = juhuslik_indeks(murdesõnad); while(vastuse_indeks == suvaline_indeks1) suvaline_indeks1 = juhuslik_indeks(murdesõnad);
+                    suvaline_indeks2 = juhuslik_indeks(murdesõnad);while (vastuse_indeks == suvaline_indeks2 || suvaline_indeks1 == suvaline_indeks2) suvaline_indeks2 = juhuslik_indeks(murdesõnad);
                     murdesõna.setText(murdesõnad.get(vastuse_indeks));
                     nupp1.setText(üldkeele_vasted.get(vastuse_indeks));
                     nupp2.setText(üldkeele_vasted.get(suvaline_indeks1));
                     nupp3.setText(üldkeele_vasted.get(suvaline_indeks2));
+                    rb.setSelected(false);
+                }
+
+                else if(!murdesõnad.isEmpty()){
+                    suvaline_indeks1 = juhuslik_indeks(vastatud_sõnad);
+                    suvaline_indeks2 = juhuslik_indeks(vastatud_sõnad);while (suvaline_indeks1 == suvaline_indeks2) suvaline_indeks2 = juhuslik_indeks(vastatud_sõnad);
+                    murdesõna.setText(murdesõnad.get(vastuse_indeks));
+                    nupp1.setText(üldkeele_vasted.get(vastuse_indeks));
+                    nupp2.setText(vastatud_sõnad.get(suvaline_indeks1));
+                    nupp3.setText(vastatud_sõnad.get(suvaline_indeks2));
+                    rb.setSelected(false);
                 }
 
                 else lõpetaMäng();
-                // vastasel juhul võta äraarvatud sõnade listist juhuslik indeks ja vaste
-                // Vaja teha: äraarvatud sõnade list; kaunter; sega vastuseid
-
+                // Vaja teha: kaunter; sega vastuseid
 
             }
         });
@@ -137,13 +159,10 @@ public class EestiMurded extends Application {
         Text tervitustekst = new Text("See mäng laseb sul arvata erinevate murdesõnade tähendust. \n Kui oled õigesti arvanud, saad punkti. Kui arvad valesti, läheb punkt maha. \n Lõpetamiseks vajuta Enterit.");
         tervitustekst.setTextAlignment(TextAlignment.CENTER);
         tervitustekst.setFont(Font.font(15));
-        Label suvatekst = new Label();
         Button nupp = new Button("Alusta");
         nupp.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                vajutuse_tekst.setFill(Color.FIREBRICK);
-                vajutuse_tekst.setText("Vajutasid nupule!");
                 mäng();
             }
         });
@@ -152,17 +171,26 @@ public class EestiMurded extends Application {
                 (EestiMurded.class.getResource("Main.css").toExternalForm());
 
         algvbox.setAlignment(Pos.CENTER);
-        algvbox.getChildren().addAll(tervitustekst, nupp, suvatekst);
+        algvbox.getChildren().addAll(tervitustekst, nupp);
         algasetus.getChildren().addAll(algvbox);
     }
 
-    //3.3. juhuslike indeksite leidmise meetod
-    private int juhuslik_indeks(){
-        return (int)(Math.round(Math.random() * (murdesõnad.size() - 1)));
+    //3.3. juhuslike indeksite leidmine
+    private int juhuslik_indeks(ArrayList list){
+        return (int)(Math.round(Math.random() * (list.size() - 1)));
     }
 
     //3.4. mängu lõpp
     private void lõpetaMäng(){
+
         lava.close();
+
+        StackPane lõppasetus = new StackPane();
+        lava = new Stage();
+        Scene lõppstseen = new Scene(lõppasetus, 650, 500);
+        lava.setScene(lõppstseen);
+        Label lõpp = new Label("Mäng läbi!");
+        lõppasetus.getChildren().add(lõpp);
+        lava.show();
     }
 }
