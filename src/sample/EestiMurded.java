@@ -189,7 +189,7 @@ public class EestiMurded extends Application {
         lava = new Stage();
         Scene lõppstseen = new Scene(lõppasetus, 650, 500);
         lava.setScene(lõppstseen);
-        Label lõpp = new Label("Mäng läbi!");
+        Label lõpp = new Label("Mäng läbi! Kogusid " + punkt + " punkti.");
         lõppasetus.getChildren().add(lõpp);
         lava.show();
     }

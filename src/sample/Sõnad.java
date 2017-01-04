@@ -11,7 +11,7 @@ public class Sõnad {
     public HashMap sõnad() {
 
         // Määratle muutujate nimed
-        String csvFile = "C:\\Users\\a71386\\Desktop\\test\\src\\sample\\murded.csv"; // sõnade fail csv-formaadis
+        String csvFile = "C:\\Users\\a71386\\Desktop\\java_EestiMurded\\src\\sample\\murded.csv"; // sõnade fail csv-formaadis
         String line = "";
         String csvSplitBy = ";"; // eralda väljad semikooloni kohalt
 
@@ -39,21 +39,7 @@ public class Sõnad {
         map.put("sõnaliik", sõnaliik);
 
         return map;
-        /*
-        // vali 3 suvalist erinevat rea numbrit 0st kuni tabeli pikkuseni
-        int suvaline_arv1 = (int)(Math.round(Math.random()*460));
-        int suvaline_arv2 = (int)(Math.round(Math.random()*460));
-        // kui 1. ja 2. suvaline arv on võrdsed, siis võta uus 2. suvaline arv
-        while(suvaline_arv1 == suvaline_arv2){
-            suvaline_arv2 = (int)(Math.round(Math.random()*460));
-        }
-        int suvaline_arv3 = (int)(Math.round(Math.random()*460));
-        // kui 3. suvaline arv on võrdne kas 1. või 2. suvalise arvuga, siis vali uus 3. suvaline arv
-        while(suvaline_arv3 == suvaline_arv1 || suvaline_arv3 == suvaline_arv2){
-            suvaline_arv3 = (int)(Math.round(Math.random()*460));
-        }
-        System.out.println(suvaline_arv1 + " " + suvaline_arv2 + " " + suvaline_arv3);
-        */
+
     }
 
 }
