@@ -1,3 +1,4 @@
+package sample;
 // Impordi vajalikud paketid
 import java.io.BufferedReader;
 import java.io.FileReader; // pakett failide sisselugemiseks
@@ -10,7 +11,7 @@ public class Sõnad {
     public HashMap sõnad() {
 
         // Määratle muutujate nimed
-        String csvFile = "murded.csv"; // sõnade fail csv-formaadis
+        String csvFile = "C:\\Users\\a71386\\Desktop\\test\\src\\sample\\murded.csv"; // sõnade fail csv-formaadis
         String line = "";
         String csvSplitBy = ";"; // eralda väljad semikooloni kohalt
 
