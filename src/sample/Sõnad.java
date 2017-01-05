@@ -16,17 +16,17 @@ public class Sõnad {
         String csvSplitBy = ";"; // eralda väljad semikooloni kohalt
 
         // Loe faili tulbad erinevatesse listidesse
-        ArrayList<String> murdesõnad = new ArrayList<>();
-        ArrayList<String> üldkeele_vasted = new ArrayList<>();
-        ArrayList<String> sõnaliik = new ArrayList<>();
+        ArrayList<String> murdesonad = new ArrayList<>();
+        ArrayList<String> yldkeele_vasted = new ArrayList<>();
+        ArrayList<String> sonaliik = new ArrayList<>();
 
         try(BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
 
             while((line = br.readLine()) != null) { // kuni rida ei ole tühi
                 String[] words = line.split(csvSplitBy); // tee tabeli ridadest sõnejärjend (eralda väljad ; koha pealt)
-                murdesõnad.add(words[0]);
-                üldkeele_vasted.add(words[1]);
-                sõnaliik.add(words[2]);
+                murdesonad.add(words[0]);
+                yldkeele_vasted.add(words[1]);
+                sonaliik.add(words[2]);
             }
 
         } catch(IOException e) {
@@ -34,9 +34,9 @@ public class Sõnad {
         }
 
         HashMap map = new HashMap();
-        map.put("murdesõnad", murdesõnad);
-        map.put("üldkeele_vasted", üldkeele_vasted);
-        map.put("sõnaliik", sõnaliik);
+        map.put("murdesonad", murdesonad);
+        map.put("yldkeele_vasted", yldkeele_vasted);
+        map.put("sonaliik", sonaliik);
 
         return map;
 
