@@ -72,7 +72,7 @@ public class EestiMurded extends Application {
         final Text vajutuse_tekst = new Text(); // kuvab vastates, kas vastus oli õige või vale
         final Text errori_tekst = new Text(); // kuvab teksti siis, kui vajutatakse nuppu, aga valitud ei ole midagi
 
-        Label sõnu = new Label("Sõnu jäänud: " + murdesonad.size()); // näitab kasutajale, kui palju sõnu on veel vaja ära vastata
+        Label sonu = new Label("Sõnu jäänud: " + murdesonad.size()); // näitab kasutajale, kui palju sõnu on veel vaja ära vastata
         Label punktid = new Label("Punkte: " + punkt); // näitab kasutajale, kui palju tal on punkte
         Button vasta = new Button("Vasta"); // vastamise nupp
 
@@ -82,7 +82,7 @@ public class EestiMurded extends Application {
         RadioButton nupp3 = new RadioButton();nupp3.setToggleGroup(vastused);
 
         vbox.setAlignment(Pos.CENTER); // paiguta vbox akna keskele
-        vbox.getChildren().addAll(sõnu, murdesona, nupp1, nupp2, nupp3, vasta, vajutuse_tekst, errori_tekst, punktid); // määra vboxi elemendid
+        vbox.getChildren().addAll(sonu, murdesona, nupp1, nupp2, nupp3, vasta, vajutuse_tekst, errori_tekst, punktid); // määra vboxi elemendid
         asetus.getChildren().addAll(vbox); // pane vbox akna sisse
 
 
@@ -151,7 +151,7 @@ public class EestiMurded extends Application {
                         punkt++; // lisa üks punkt
                         punktid.setText("Punkte: " + punkt); // kuva kasutajale uus punktide arv
                         murdesonad.remove(murdesona.getText()); // eemalda murdesõna listist
-                        sõnu.setText("Sõnu jäänud: " + murdesonad.size()); // kuva kasutajale arvata jäänud sõnade arv
+                        sonu.setText("Sõnu jäänud: " + murdesonad.size()); // kuva kasutajale arvata jäänud sõnade arv
                         yldkeele_vasted.remove(oige_vastus); // eemalda üldkeele vastus listist
                         vastatud_sonad.add(vastus); // lisa vastus vastatud sõnade listi
 
