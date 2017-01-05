@@ -23,9 +23,9 @@ public class EestiMurded extends Application {
     //1. loo globaalsed muutujad
 
     ///1.1. sõnade ja indeksite listid
-    Sõnad words = new Sõnad();
-    ArrayList<String> murdesonad = (ArrayList) words.sõnad().get("murdesonad"); // murdesõnade list
-    ArrayList<String> yldkeele_vasted = (ArrayList) words.sõnad().get("yldkeele_vasted"); // üldkeele vastete list
+    Sonad words = new Sonad();
+    ArrayList<String> murdesonad = (ArrayList) words.sonad().get("murdesonad"); // murdesõnade list
+    ArrayList<String> yldkeele_vasted = (ArrayList) words.sonad().get("yldkeele_vasted"); // üldkeele vastete list
     ArrayList<String> vastatud_sonad = new ArrayList<String>(); // tühi list, kuhu lähevad õigesti vastatud sõnade vasted
     ArrayList<Integer> testlist = new ArrayList<Integer>(); // tühi list, kuhu lähevad 3 suvalist indeksit
 

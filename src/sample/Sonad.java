@@ -6,9 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Sõnad {
+public class Sonad {
 
-    public HashMap sõnad() {
+    public HashMap sonad() {
 
         // Määratle muutujate nimed
         String csvFile = "C:\\Users\\a71386\\Desktop\\java_EestiMurded\\src\\sample\\murded.csv"; // sõnade fail csv-formaadis
@@ -18,7 +18,6 @@ public class Sõnad {
         // Loe faili tulbad erinevatesse listidesse
         ArrayList<String> murdesonad = new ArrayList<>();
         ArrayList<String> yldkeele_vasted = new ArrayList<>();
-        ArrayList<String> sonaliik = new ArrayList<>();
 
         try(BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
 
@@ -26,17 +25,16 @@ public class Sõnad {
                 String[] words = line.split(csvSplitBy); // tee tabeli ridadest sõnejärjend (eralda väljad ; koha pealt)
                 murdesonad.add(words[0]);
                 yldkeele_vasted.add(words[1]);
-                sonaliik.add(words[2]);
             }
 
         } catch(IOException e) {
             e.printStackTrace();
         }
 
+        // HashMapi teen siin ainult selleks, et saaks returnida kõik listid korraga
         HashMap map = new HashMap();
         map.put("murdesonad", murdesonad);
         map.put("yldkeele_vasted", yldkeele_vasted);
-        map.put("sonaliik", sonaliik);
 
         return map;
 
