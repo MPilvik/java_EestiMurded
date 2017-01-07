@@ -1,15 +1,17 @@
 package sample;
+import com.sun.rowset.internal.Row;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.geometry.HPos;
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
-import javafx.scene.layout.StackPane;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.*;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
@@ -23,9 +25,11 @@ public class EestiMurded extends Application {
     //1. loo globaalsed muutujad
 
     ///1.1. sõnade ja indeksite listid
-    Sonad words = new Sonad();
-    ArrayList<String> murdesonad = (ArrayList) words.sonad().get("murdesonad"); // murdesõnade list
-    ArrayList<String> yldkeele_vasted = (ArrayList) words.sonad().get("yldkeele_vasted"); // üldkeele vastete list
+    Sonad sonad = new Sonad(); // tee uus Sonad-objekt Sonad-klassist
+    ArrayList<String> murdesonad = sonad.kysiListi("murdesonad"); // küsi Sõnad-objektist meetodiga kysiListi murdesõnade list
+    ArrayList<String> yldkeele_vasted = sonad.kysiListi("yldkeele_vasted"); // üldkeele vastete list
+    ArrayList<String> lausenaited = sonad.kysiListi("lausenaited");
+
     ArrayList<String> vastatud_sonad = new ArrayList<String>(); // tühi list, kuhu lähevad õigesti vastatud sõnade vasted
     ArrayList<Integer> testlist = new ArrayList<Integer>(); // tühi list, kuhu lähevad 3 suvalist indeksit
 
@@ -59,32 +63,57 @@ public class EestiMurded extends Application {
         alglava.close(); // pane alguskuva aken kinni
 
         ////3.1.1. seadista uus aken
-        StackPane asetus = new StackPane();
+        GridPane asetus = new GridPane();
         lava = new Stage();
         Scene stseen = new Scene(asetus, 650, 500);
-        VBox vbox = new VBox(10);
+        VBox vbox_vastused = new VBox(10);vbox_vastused.setId("vbox_vastused");
 
         lava.setScene(stseen);
         lava.setTitle("Eesti murdesõnade arvamise mäng");
-        lava.setResizable(true);
+        //lava.setResizable(false);
         lava.show();
 
-        final Text vajutuse_tekst = new Text(); // kuvab vastates, kas vastus oli õige või vale
-        final Text errori_tekst = new Text(); // kuvab teksti siis, kui vajutatakse nuppu, aga valitud ei ole midagi
+        final Text vajutuse_tekst = new Text();vajutuse_tekst.setId("vajutus"); // kuvab vastates, kas vastus oli õige või vale
+        final Text errori_tekst = new Text();
+        final Text lause = new Text();lause.setId("lause");lause.wrappingWidthProperty().bind(asetus.widthProperty().subtract(40));
+        murdesona.setId("murdesona");
 
         Label sonu = new Label("Sõnu jäänud: " + murdesonad.size()); // näitab kasutajale, kui palju sõnu on veel vaja ära vastata
         Label punktid = new Label("Punkte: " + punkt); // näitab kasutajale, kui palju tal on punkte
-        Button vasta = new Button("Vasta"); // vastamise nupp
+
+        Button vasta = new Button("Vasta");// vastamise nupp
+        Button edasi = new Button("Edasi ->");
 
         ToggleGroup vastused = new ToggleGroup(); // vastuste grupp, mille variantidest saab valida ainult ühe
         RadioButton nupp1 = new RadioButton();nupp1.setToggleGroup(vastused);
         RadioButton nupp2 = new RadioButton();nupp2.setToggleGroup(vastused);
         RadioButton nupp3 = new RadioButton();nupp3.setToggleGroup(vastused);
 
-        vbox.setAlignment(Pos.CENTER); // paiguta vbox akna keskele
-        vbox.getChildren().addAll(sonu, murdesona, nupp1, nupp2, nupp3, vasta, vajutuse_tekst, errori_tekst, punktid); // määra vboxi elemendid
-        asetus.getChildren().addAll(vbox); // pane vbox akna sisse
+        vbox_vastused.getChildren().addAll(nupp1, nupp2, nupp3); // määra vboxi elemendid
+        vbox_vastused.setAlignment(Pos.CENTER_LEFT);
 
+        Insets aared = new Insets(0,20,0,20);
+
+        asetus.setPrefSize(650, 500);
+        asetus.add(sonu, 0, 0, 2, 1);asetus.setHalignment(sonu, HPos.LEFT);asetus.setMargin(sonu, aared);
+        asetus.add(punktid, 5, 0, 2, 1);asetus.setHalignment(punktid, HPos.RIGHT);asetus.setMargin(punktid, aared);
+        asetus.add(murdesona, 2, 1, 2, 1);asetus.setMargin(murdesona, new Insets(40, 20, 0, 20));asetus.setHalignment(murdesona, HPos.CENTER);
+        asetus.add(vbox_vastused, 2, 2, 3, 1);asetus.setMargin(vbox_vastused, new Insets(0, 20, 30, 20));
+        asetus.add(vasta, 2, 3, 2, 1);asetus.setMargin(vasta, new Insets(0, 20, 20, 20));asetus.setHalignment(vasta, HPos.CENTER);
+        asetus.add(vajutuse_tekst, 4, 2, 2, 2);asetus.setMargin(vajutuse_tekst, new Insets(0, 10, 40, 60));asetus.setHalignment(vajutuse_tekst, HPos.CENTER);
+        asetus.add(errori_tekst, 4, 2, 2, 2);asetus.setMargin(errori_tekst, new Insets(0, 20, 40, 20));asetus.setHalignment(errori_tekst, HPos.CENTER);
+        asetus.add(lause, 1, 4, 4, 1);asetus.setMargin(lause, new Insets(20, 20, 0, 20));asetus.setHalignment(lause, HPos.CENTER);
+        asetus.add(edasi, 2, 5, 2, 1);asetus.setMargin(edasi, aared);asetus.setHalignment(edasi, HPos.CENTER);
+
+        ColumnConstraints column1 = new ColumnConstraints();ColumnConstraints column2 = new ColumnConstraints();ColumnConstraints column3 = new ColumnConstraints();ColumnConstraints column4 = new ColumnConstraints();ColumnConstraints column5 = new ColumnConstraints(); ColumnConstraints column6 = new ColumnConstraints();
+        column1.setPercentWidth(16.6);column2.setPercentWidth(16.6);column3.setPercentWidth(16.8);column4.setPercentWidth(16.8);column5.setPercentWidth(16.6);column6.setPercentWidth(16.6);
+        asetus.getColumnConstraints().add(column1);asetus.getColumnConstraints().add(column2);asetus.getColumnConstraints().add(column3);asetus.getColumnConstraints().add(column4);asetus.getColumnConstraints().add(column5);asetus.getColumnConstraints().add(column6);
+        RowConstraints row1 = new RowConstraints();RowConstraints row2 = new RowConstraints();RowConstraints row3 = new RowConstraints();RowConstraints row4 = new RowConstraints();RowConstraints row5 = new RowConstraints();RowConstraints row6 = new RowConstraints();
+        row1.setPercentHeight(10);row2.setPercentHeight(20);row3.setPercentHeight(20);row4.setPercentHeight(10);row5.setPercentHeight(20);row6.setPercentHeight(10);
+        asetus.getRowConstraints().addAll(row1, row2, row3, row4, row5, row6);
+
+        stseen.getStylesheets().add
+                (EestiMurded.class.getResource("Main.css").toExternalForm());
 
         ////3.1.2. määra murdesõnale ja vastusevariantidele väärtused
 
@@ -150,6 +179,7 @@ public class EestiMurded extends Application {
                         vajutuse_tekst.setText("Õige!"); // kuva kasutajale, et vastus oli õige
                         punkt++; // lisa üks punkt
                         punktid.setText("Punkte: " + punkt); // kuva kasutajale uus punktide arv
+                        lause.setText(lausenaited.get(murdesonad.indexOf(murdesona.getText())));
                         murdesonad.remove(murdesona.getText()); // eemalda murdesõna listist
                         sonu.setText("Sõnu jäänud: " + murdesonad.size()); // kuva kasutajale arvata jäänud sõnade arv
                         yldkeele_vasted.remove(oige_vastus); // eemalda üldkeele vastus listist
@@ -206,8 +236,9 @@ public class EestiMurded extends Application {
                         /////// määra raadionuppudele uued tekstid
                         nupp1.setText(yldkeele_vasted.get(testlist.get(juhuslik_indeks(testlist))));
                         nupp2.setText(yldkeele_vasted.get(testlist.get(juhuslik_indeks(testlist))));
+                        while(nupp1.getText().equals(nupp2.getText()))nupp2.setText(yldkeele_vasted.get(testlist.get(juhuslik_indeks(testlist))));
                         nupp3.setText(yldkeele_vasted.get(testlist.get(juhuslik_indeks(testlist))));
-                        while (nupp1.getText().equals(nupp3.getText()) || nupp2.getText().equals(nupp3.getText()))nupp3.setText(yldkeele_vasted.get(testlist.get(juhuslik_indeks(testlist))));
+                        while(nupp1.getText().equals(nupp3.getText()) || nupp2.getText().equals(nupp3.getText()))nupp3.setText(yldkeele_vasted.get(testlist.get(juhuslik_indeks(testlist))));
 
                         /////// prindi konsooli kontrollteade
                         System.out.println("Nupp1 all on " + nupp1.getText() + ", nupp2 all on " + nupp2.getText() + " ja nupp3 all on " + nupp3.getText());
@@ -270,13 +301,25 @@ public class EestiMurded extends Application {
                         /////// kui list on tühi, siis lõpeta mäng
                     } else lopetaGame();
 
-                /////3.1.3.2. määra, mis juhtub, kui kõik ei lähe õigesti
+                    /////3.1.3.2. määra, mis juhtub, kui kõik ei lähe õigesti
                 } catch (NullPointerException e){ // antud juhul kõige tõenäolisem on see, et klikkimine ei ole päris pihta läinud
                     vajutuse_tekst.setText(""); // ära kuva üldse "Õige!" ega "Vale!" teksti
                     errori_tekst.setText("Vali üks vastusevariantidest!"); // vaid anna teade, et kasutaja peab vastamiseks ühe vastuse valima
                 }
             }
         });
+
+
+        /*edasi.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+              try {
+
+              } catch(){
+
+                }
+            }
+        });*/
     }
 
     ///3.2. seadista mängu alguse aken
@@ -295,6 +338,7 @@ public class EestiMurded extends Application {
         Text tervitustekst = new Text("See mäng laseb sul arvata erinevate murdesõnade tähendust. \n Kui oled õigesti arvanud, saad punkti. Kui arvad valesti, läheb punkt maha. \n Alustamiseks vajuta nupule 'Alusta'.");
         tervitustekst.setTextAlignment(TextAlignment.CENTER);
         tervitustekst.setFont(Font.font(15));
+        tervitustekst.setId("tervitustekst");
         Button nupp = new Button("Alusta");
 
         ////3.2.1. määra, mis juhtub nupule vajutamisel

@@ -1,10 +1,11 @@
 .root {
-     -fx-background-image: url("Eesti-murded.png");
+     -fx-background-image: url("Eesti-murded2.png");
      -fx-background-size: cover;
      -fx-background-repeat: no-repeat;
 }
+}
 .label {
-    -fx-font-size: 12px;
+    -fx-font-size: 14px;
     -fx-font-weight: bold;
     -fx-text-fill: #333333;
     -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
@@ -20,13 +21,30 @@
     -fx-background-color: linear-gradient(#2A5058, #61a2b1);
 }
 #tervitustekst {
-   -fx-font-size: 32px;
-   -fx-font-family: "Arial Black";
+   -fx-font-size: 18px;
+   -fx-font-family: "Arial";
+   -fx-font-weight: bold;
    -fx-fill: #818181;
    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
 }
-#vajutuse_tekst {
-  -fx-fill: FIREBRICK;
+#murdesona {
+  -fx-font-size: 32px;
   -fx-font-weight: bold;
-  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
 }
+#vbox_vastused {
+  -fx-font-size: 14px;
+  -fx-font-weight: bold;
+}
+#lause {
+  -fx-font-size: 15px;
+  -fx-font-weight: bold;
+  -fx-font-style: italic;
+  -fx-fill: #4d564b;
+}
+#vajutus {
+  -fx-font-size: 18px;
+  -fx-font-weight: bold;
+  -fx-fill: #e50d0d;
+}
+
+
