@@ -46,5 +46,8 @@
   -fx-font-weight: bold;
   -fx-fill: #e50d0d;
 }
-
+#lopp {
+  -fx-font-size: 18px;
+  -fx-font-weight: bold;
+  }
 
