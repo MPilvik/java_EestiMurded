@@ -77,7 +77,7 @@ public class EestiMurded extends Application {
         // kontrolli, ega juhuslikud indeksid omavahel ei kattu (kui kattuvad, määra uued, kuni enam ei kattu)
         while(suvaline_indeks0 == suvaline_indeks1)suvaline_indeks1 = juhuslik_indeks(murdesonad);
         while(suvaline_indeks0 == suvaline_indeks2 || suvaline_indeks1 == suvaline_indeks2)suvaline_indeks2 = juhuslik_indeks(murdesonad);
-        System.out.println("suvaline_indeks0: " + suvaline_indeks0 + ", suvaline_indeks1: " + suvaline_indeks1 + ", suvaline_indeks2: " + suvaline_indeks2);
+        
 
         // säti (uued) nuppude ja küsitava sõna väärtused (ühtlasi tühjenda ja täida uuesti indeksite list)
         muudaKysimust(false, yldkeele_vasted);
