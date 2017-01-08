@@ -1,7 +1,7 @@
 package sample;
 // Impordi vajalikud paketid
 import java.io.BufferedReader;
-import java.io.FileReader; // pakett failide sisselugemiseks
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -35,7 +35,6 @@ public class Sonad {
         }
 
         // HashMapi teen siin tegelt ainult selleks, et saaks returnida kõik listid korraga ja et pärast saaks stringi järgi listi nime küsida
-        //HashMap map = new HashMap();
         map.put("murdesonad", murdesonad);
         map.put("yldkeele_vasted", yldkeele_vasted);
         map.put("lausenaited", lausenaited);
